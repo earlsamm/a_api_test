@@ -35,7 +35,3 @@ $task_gateway = new TaskGateway($database);
 $controller = new TaskController($task_gateway);
 
 $controller->processRequest($_SERVER['REQUEST_METHOD'], $id);
-
-//Now we add another route
-$routes1 = 'sammy';
-$route2 = 'Passy';
